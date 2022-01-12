@@ -4,10 +4,10 @@
 
 [[redirects]]
   from = "/reverse-proxy-basepath"
-  to = "https://nextjs-dynamic-path.netlify.app/"
+  to = "https://nextjs-dynamic-path.netlify.app/reverse-proxy-basepath"
   status = 200
 
 [[redirects]]
   from = "/reverse-proxy-basepath/*"
-  to = "https://nextjs-dynamic-path.netlify.app/:splat"
+  to = "https://nextjs-dynamic-path.netlify.app/reverse-proxy-basepath/:splat"
   status = 200
