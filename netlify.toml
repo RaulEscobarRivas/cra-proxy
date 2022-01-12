@@ -6,3 +6,8 @@
   from = "/reverse-proxy-basepath"
   to = "https://nextjs-dynamic-path.netlify.app/"
   status = 200
+
+[[redirects]]
+  from = "/reverse-proxy-basepath/*"
+  to = "https://nextjs-dynamic-path.netlify.app/:splat"
+  status = 200
