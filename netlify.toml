@@ -5,4 +5,4 @@
 [[redirects]]
   from = "/reverse-proxy-basepath"
   to = "https://nextjs-dynamic-path.netlify.app/"
-  status = 301
+  status = 200
